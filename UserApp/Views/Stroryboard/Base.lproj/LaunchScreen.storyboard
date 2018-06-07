@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-UI-Display-Regular.otf">
+            <string>SFUIDisplay-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash_bg" translatesAutoresizingMaskIntoConstraints="NO" id="2bU-Sy-Zu2">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login_logo" translatesAutoresizingMaskIntoConstraints="NO" id="yTw-dA-iwt">
+                                <rect key="frame" x="115" y="255.5" width="145" height="156"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="145" id="Cuw-y4-mSI"/>
+                                    <constraint firstAttribute="height" constant="156" id="yA5-Kt-y6U"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l1n-Xy-py3">
+                                <rect key="frame" x="16" y="616" width="343" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="uxP-oL-pcL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SFUIDisplay-Regular" family="SF UI Display" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="hlU-9e-Ina" firstAttribute="trailing" secondItem="2bU-Sy-Zu2" secondAttribute="trailing" id="0tc-fC-AiW"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="l1n-Xy-py3" secondAttribute="trailing" id="5qq-aZ-OSQ"/>
+                            <constraint firstItem="2bU-Sy-Zu2" firstAttribute="leading" secondItem="hlU-9e-Ina" secondAttribute="leading" id="Eiz-Ns-Tr4"/>
+                            <constraint firstItem="yTw-dA-iwt" firstAttribute="centerX" secondItem="2bU-Sy-Zu2" secondAttribute="centerX" id="X4U-Kv-AQS"/>
+                            <constraint firstItem="2bU-Sy-Zu2" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="clQ-al-xOa"/>
+                            <constraint firstItem="hlU-9e-Ina" firstAttribute="bottom" secondItem="l1n-Xy-py3" secondAttribute="bottom" constant="30" id="fSJ-rc-IVr"/>
+                            <constraint firstItem="yTw-dA-iwt" firstAttribute="centerY" secondItem="2bU-Sy-Zu2" secondAttribute="centerY" id="gz6-KX-FGe"/>
+                            <constraint firstAttribute="bottom" secondItem="2bU-Sy-Zu2" secondAttribute="bottom" id="rTh-jw-evZ"/>
+                            <constraint firstItem="l1n-Xy-py3" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="uJJ-WQ-A9r"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="hlU-9e-Ina"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="login_logo" width="114" height="123"/>
+        <image name="splash_bg" width="320" height="568"/>
+    </resources>
+</document>

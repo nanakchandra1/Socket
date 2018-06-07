@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-UI-Display-Regular.otf">
+            <string>SFUIDisplay-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="65" id="HZQ-HF-5mS" customClass="PickDropTableViewCell" customModule="CustomSlider" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="65"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="HZQ-HF-5mS" id="pAg-67-7I3">
+                <frame key="frameInset" width="320" height="64"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T4i-1Q-VIn" userLabel="Line View">
+                        <color key="backgroundColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="1" id="wJg-Sj-1W4"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PVV-1R-vgb" userLabel="Circle View">
+                        <color key="backgroundColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="8" id="BNb-NT-qDN">
+                                <variation key="heightClass=regular-widthClass=regular" constant="11"/>
+                            </constraint>
+                            <constraint firstAttribute="width" constant="8" id="hNS-VE-7NS">
+                                <variation key="heightClass=regular-widthClass=regular" constant="11"/>
+                            </constraint>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="252" horizontalCompressionResistancePriority="752" verticalCompressionResistancePriority="752" text="From:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DYb-TF-diX">
+                        <fontDescription key="fontDescription" name="SFUIDisplay-Regular" family="SF UI Display" pointSize="12"/>
+                        <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <fontDescription key="fontDescription" name="SFUIDisplay-Regular" family="SF UI Display" pointSize="19"/>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="209 Pandan Gardens, Singapore 609339" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="40b-Hn-dqs">
+                        <fontDescription key="fontDescription" name="SFUIDisplay-Regular" family="SF UI Display" pointSize="12"/>
+                        <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <fontDescription key="fontDescription" name="SFUIDisplay-Regular" family="SF UI Display" pointSize="19"/>
+                        </variation>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" red="0.16078431369999999" green="0.16078431369999999" blue="0.16078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="40b-Hn-dqs" firstAttribute="leading" secondItem="DYb-TF-diX" secondAttribute="leading" id="153-up-8jM"/>
+                    <constraint firstItem="PVV-1R-vgb" firstAttribute="centerX" secondItem="T4i-1Q-VIn" secondAttribute="centerX" id="8WY-be-987"/>
+                    <constraint firstItem="40b-Hn-dqs" firstAttribute="top" secondItem="DYb-TF-diX" secondAttribute="bottom" id="KcH-S5-58D"/>
+                    <constraint firstAttribute="bottom" secondItem="40b-Hn-dqs" secondAttribute="bottom" constant="5" id="TlG-iU-if3"/>
+                    <constraint firstItem="T4i-1Q-VIn" firstAttribute="leading" secondItem="pAg-67-7I3" secondAttribute="leading" constant="20" id="eNK-EM-MiD">
+                        <variation key="heightClass=regular-widthClass=regular" constant="30"/>
+                    </constraint>
+                    <constraint firstAttribute="bottom" secondItem="T4i-1Q-VIn" secondAttribute="bottom" id="gGu-oG-cmb"/>
+                    <constraint firstItem="T4i-1Q-VIn" firstAttribute="top" secondItem="pAg-67-7I3" secondAttribute="top" id="hVb-bE-tei"/>
+                    <constraint firstAttribute="trailing" secondItem="40b-Hn-dqs" secondAttribute="trailing" constant="50" id="m7t-1B-kHv"/>
+                    <constraint firstItem="PVV-1R-vgb" firstAttribute="top" secondItem="pAg-67-7I3" secondAttribute="top" constant="18" id="p7e-eb-3Zq">
+                        <variation key="heightClass=regular-widthClass=regular" constant="28"/>
+                    </constraint>
+                    <constraint firstItem="DYb-TF-diX" firstAttribute="leading" secondItem="PVV-1R-vgb" secondAttribute="trailing" constant="8" id="qt4-bE-bgA">
+                        <variation key="heightClass=regular-widthClass=regular" constant="15"/>
+                    </constraint>
+                    <constraint firstItem="DYb-TF-diX" firstAttribute="top" secondItem="pAg-67-7I3" secondAttribute="top" constant="8" id="ryJ-vT-0V4">
+                        <variation key="heightClass=regular-widthClass=regular" constant="12"/>
+                    </constraint>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.16078431369999999" green="0.16078431369999999" blue="0.16078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <connections>
+                <outlet property="addressLabel" destination="40b-Hn-dqs" id="Xwy-Bu-sYW"/>
+                <outlet property="circleView" destination="PVV-1R-vgb" id="8Ez-nN-Z46"/>
+                <outlet property="locationTypeLabel" destination="DYb-TF-diX" id="eM7-HL-FUw"/>
+            </connections>
+            <point key="canvasLocation" x="33" y="78.5"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,303 @@
+/* 
+  Localizable.strings
+  UserApp
+
+  Created by Appinventiv on 04/10/17.
+  Copyright © 2017 Appinventiv. All rights reserved.
+*/
+
+
+
+//Signup
+
+"SIGNUP" = "SIGNUP";
+"DONE" = "DONE";
+"C_CANCEL" = "CANCEL";
+"FULL_NAME" = "Full Name";
+"EMAIL_ADDRESS" = "Email Address";
+"PHONE_NO" = "Phone Number";
+"PASSWORD" = "Password";
+"GENDER_OPTIONAl" = "Gender (Optional)";
+"D_O_B_OPTIONAL" = "D_O_B (Optional)";
+"MALE" = "Male";
+"FEMALE" = "Female";
+"PRIVACE_AND_TERMS" = "I accept Terms & Conditions & Privacy Policy";
+"PROFILR_SETUP" = "PROFILE SETUP";
+
+"S_CHOSE_IMAGE" = "Choose Image";
+"S_CAMERA" = "Camera";
+"S_GALLERA" = "Gallery";
+"S_CANCEL" = "Cancel";
+"CAMERA_UNAVAIL" = "Camera Unavailable";
+"GALLERY_UNAVAIL" = "Gallery Unavailable";
+"CAMERA_UNAVAIL_DESC" = "Please check to see if it is disconnected or in use by another application";
+"CAMERA_PERMISSION" = "You don't have permission to access the camera. Please go to device settings and enable the camera permissions.";
+"GALLERY_PERMISSION" = "You don't have permission to access the gallery. Please go to device settings and enable the gallery permissions.";
+"S_SETTINGS" = "Settings";
+"S_OK" = "Ok";
+"C_OK" = "OK";
+
+"PLEASE_ENTER_NAME" = "Please enter the Name";
+"PLEASE_ENTER_EMAIL" = "Please enter the Email";
+
+"PLEASE_ENTER_VAILD_EMAIL" = "Please enter a valid Email Address";
+"SELECT_CODE" = "Please select country code";
+
+"PLEASE_ENTER_MOBILE" = "Please enter the Mobile Number";
+"PLEASE_ENTER_VALID_MO" = "Please enter valid Mobile Number";
+"CAN_NOT_CHANGE_EMAIL" = "You cannot change your Email ID";
+"ACCEPT_TERMS" = "Please accept Terms & Conditions";
+"ALTEST_ONE_VEHICLE" = "You need to have at least one vehicle!!";
+"PLEASE_ENTER_PASS" = "Please enter the Password";
+"PASS_MINIMUM" = "password length should be more than 6 characters";
+"PASS_MAX" = "password length should not be more than 32 characters";
+
+"FILL_CURRENT_PASS" = "Please fill the current Password";
+"FILL_NEW_PASS" = "Please fill the new Password";
+"CONFIRM_PASS" = "Confirm New Password";
+"REMOVED" = "Removed";
+
+
+//login with media
+
+"LOGIN_WITH_FB" = "LOGIN WITH FACEBOOK";
+"LOGIN_WITH_TWTR" = "LOGIN WITH TWITTER";
+"LOGIN_WITH_GOOGLE" = "LOGIN WITH GOOGLE";
+"LOGIN_WITH_EMAIL" = "LOGIN WITH EMAIL";
+"REGISTER_NOW" = "REGISTER NOW";
+"PLZ_ENTER_CREDENTIAL" = "Please enter the Credentials";
+
+//login
+
+"LOGIN_FORGOT_PASSWORD" = "Forgot Password?";
+"LOGIN" = "LOGIN";
+
+// COUNTRY LIST
+
+"C_COUNTRY_LIST" = "COUNTRY LIST";
+"S_COUNTRY_LIST" = "Country List";
+
+// OTP VIEW CONTROLLER
+
+"DONT_WORRY" = "DONT WORRY";
+"OTP_DESC" = "Please follow some easy steps and create new password!";
+"OTP_ENTER_OTP" = "Enter the OTP sent to your mobile number";
+"C_VARIFY" = "VARIFY";
+"C_RESEND" = "RESEND";
+
+// FORGOT PASSWORD
+
+"FORGIE_ENTER_MOBILE_NUMBER" = "Please enter your registered mobile number";
+"CODE" = "Code";
+"MOBILE_NUMBER" = "Mobile Number";
+"C_SEND" = "SEND";
+"FORGOT_PASSWORD" = "FORGOT PASSWORD";
+
+//UPDATE PASSWORD
+
+"PLEASE_ENTER_NEW_PASS" = "Please enter new password";
+"PLEASE_ENTER_CONFIRM_PASS" = "Please confirm new password";
+"C_UPDATE" = "UPDATE";
+
+//MOBILE VARIFICATION
+
+"M__VARIFY_ENTER_MOB" = "Enter your Mobile Number";
+"C_SUBMIT" = "SUBMIT";
+
+//OTP VARIFICATION
+
+"MOBILE_VARIFICATION" = "MOBILE VARIFICATION";
+"ENTER_VARIFY_CODE" = "Enter Your Verification Code";
+"C_RESEND_OTP" = "RESEND OTP";
+"PLZ_ENTER_OTP" = "Please enter the OTP";
+"PLZ_ENTER_VALID_OTP" = "Please enter valid OTP";
+"PLZ_ENTER_COUPON_CODE" = "Enter Coupon Code";
+"PLZ_ENTER_QUERY" = "Please enter your Query";
+
+
+
+//SecondTutorialViewController
+
+"STAY_SAFE" = "STAY SAFE";
+"STAY_SAFE_DESC" = "Wonder about what the morning will bring after a rough night out? Keep calm. All WAV drivers undergo an intensive and thoroughly screening process before being registered with us.";
+
+
+//ThirdTutorialViewController
+
+"SIMPLE_STRAIGHT" = "SIMPLE AND STRAIGHT FORWARD";
+"SIMPLE_STRAIGHT_DESC" = "Going home or heading to another place? Get a valet driver in less than 5 steps. You also have the option to pay by cash or card.";
+
+
+//FirstTutorialViewController
+
+"AFFORDABLE" = "AFFORDABLE AND CONVENIENT";
+"AFFORDABLE_DESC" = "Enjoy the night with no worries. Instead of having to worry about retrieving your car the next day, being driven home in your own car the night before helps you save time and money. No more unnecessary taxi fares, overnight charges and fines.";
+
+
+//SubscriptionCardDetailVC
+
+"C_CARD_DETAILS" = "CARD DETAILS";
+"S_CARD_DETAIL" = "Card Detail";
+"ENTER_CARD_DETAIL" = "Enter your Debit card or Credit card Details";
+"S_CARD_NO" = "Card No";
+"EXPIRY_DATE" = "Expiry Date";
+"CVV" = "CVV";
+"C_PAY_NOW" = "PAY NOW";
+"SELECT_CARD" = "Select Card";
+"S_DELETE" = "Delete";
+
+//SubscriptionAddAmountVC
+
+"C_ADD_AMOUNT" = "ADD AMOUNT";
+"AMOUNT_AVAILABLE" = "AMOUNT AVAILABLE";
+"S_ENTER_AMOUNT" = "Enter Amount";
+"C_ENTER_AMOUNT" = "ENTER AMOUNT";
+"PLEASE_ENTER_AMNT" = "Please Enter Amount";
+
+"LESS_AMOUNT" = "Amount cannot be less than $1";
+"ENTER_CARD_NO" = "Enter Card Number";
+"ENTER_VALID_CARD_NO" = "Please enter valid Card Number";
+"ENTER_CARD_HOLDER_NAME" = "Please enter Name on your card";
+"ENTER_EXPIRY_MONTH" = "Enter Expiry Month";
+"ENTER_EXPIRY_YEAR" = "Enter Expiry Year";
+
+"ENTER_VALID_CVV" = "Please enter valid CVV number";
+
+//SubscriptionVC
+
+"C_SUBSCRIPTION" = "SUBSCRIPTION";
+"VIEW_COUPONS" = "View Coupons";
+"C_LAST_TRANSACTIONS" = "LAST TRANSACTIONS";
+
+//SubScriptionCouponsVC
+
+"C_COUPONS" = "COUPONS";
+"C_AVAILABLE" = "AVAILABLE";
+"C_SHARED" = "SHARED";
+"COUPON_AVAILABLE" = "Coupon Available:";
+"GENERATE_COUPONS" = "Generate Coupons";
+"NOTE" = "Note : Coupons shall expire within 48 hours after generation.";
+"RATE_THE_DRIVER" = "Please Rate the driver";
+
+
+
+
+//Ride related
+"SEARCH_DRIVER_ON_LOCATION" = "Search Driver on your location";
+
+"REQUEST_RIDE" = "REQUEST A RIDE";
+
+"SELCT_DROP_LOC" = "Please select drop location";
+"SELECT_DATE_AND_TIME" = "Please select date and time";
+"CAN_NOT_MORE_LOC" = "Can not add more location";
+"CHOOSE_YOUR_PICKUP" = "Choose your Pick Up";
+"SELECT_LOC" = "Select Location";
+"DROP_DESTI_UPDATED" = "Drop-off Destination Updated !";
+"CHANGE_ROUTE_REJECTED" = "Change route request rejected !";
+"YOU_WILL_REACH_TO_UR_DESTI" = "You'll reach to your destination in";
+"YOUR_DRIVER_REACH_IN" = "Your driver will reach in";
+
+"CHOOSE_PICKUP" = "CHOOSE YOUR PICKUP";
+"CHOOSE_DROPoFF" = "CHOOSE YOUR DROPOFF";
+"DROP_OFF" = "DROP OFF";
+"S_CHOOSE_DROPOFF" = "Choose your Drop Off";
+"PICK_UP" = "PICK UP -";
+"NO_SAVED_LOC" = "NO SAVED LOCATION";
+
+"ARE_U_SURE_CANCEL_RIDE" = "Are you sure, you want to cancel ride?";
+"DRIVER_NOT_ALLOCATED" = "Driver Not Allocated";
+
+
+//VEHICLE
+"MY_VEHICLES" = "MY VEHICLES";
+"ADD_NEW_VEHICLES" = "Add new vehicles";
+
+"ENTER_VEHI_MODEL" = "Enter Vehicle Model";
+"SELECTVEHI_TYPE" = "Select Vehicle Type";
+"ENTER_VEHI_NUMBER" = "Enter Vehicle Number";
+"VEHI_ADDED" = "Vehicle Added";
+
+"C_CANCELLED" = "CANCELLED";
+"C_COMPLETED" = "COMPLETED";
+"C_ONRIDE" = "ON RIDE";
+"C_ARRIVAL_NOW" = "ARRIVAL NOW";
+"CARD" = "Card";
+"CASH" = "Cash";
+"CAR" = "Car";
+"BIKE" = "Bike";
+
+"C_ARRIVING_NOW" = "ARRIVING NOW";
+"C_ON_RIDE" = "ON RIDE";
+"C_ON_THE_WAY" = "ON THE WAY";
+"C_CHANGE_DESTI" = "CHANGE DESTINATION";
+
+"S_ONRIDE" = "Onride";
+"S_ARRIVAL_NOW" = "arrivalNow";
+"S_RATING" = "rating";
+
+"RIDE_CANCELLED" = "Ride Cancelled";
+
+"TERRIBLE" = "Terrible";
+"BAD" = "Bad";
+"GOOD" = "Good";
+"EXCELLENT" = "Excellent";
+
+"CLEANLINESS" = "Cleanliness";
+"S_PICKUP" = "Pickup";
+"SERVICE" = "Service";
+"NAVIGATION" = "Navigation";
+"DRIVING" = "Driving";
+"OTHER" = "Other";
+
+"WHAT_WENT_WRONG" = "WHAT WENT WRONG?";
+"WHAT_COULD_BE_BETTER" = "WHAT COULD BE BETTER?";
+"WHAT_WENT_WELL" = "WHAT WENT WELL?";
+
+// Side menu
+
+"C_HOME" = "HOME";
+"C_PAYMENT_METHOD" = "PAYMENT METHOD";
+"C_RIDE_HISTORY" = "RIDE HISTORY";
+"C_NOTIFICATIONS" = "NOTIFICATIONS";
+"HOW_IT_WORKS" = "HOW IT WORKS";
+"C_SETTINGS" = "SETTINGS";
+"C_PROMOTIONS" = "PROMOTIONS";
+"C_TERMS_OF_USE" = "TERMS OF USE";
+"C_PRIVACY_POLICY" = "PRIVACY POLICY";
+"C_BE_A_DRIVER" = "BE A DRIVER";
+"C_SUBSCRIPTIONS" = "SUBSCRIPTIONS";
+
+
+// No data found
+
+"NO_HISTORY" = "No History Available";
+"NO_NOTIFICATION" = "No Notification Available";
+"NO_PROMOTION" = "No Promotion Available";
+"NO_PREBOOKING" = "No Prebookings Available";
+"NO_TRANSACTION" = "No Transaction Available";
+"NO_AVAILABLE_COUPON" = "No Coupon Available";
+"NO_SHARED_COUPON" = "No Shared Coupon Available";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
